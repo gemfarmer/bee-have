@@ -7,6 +7,7 @@ Open-source monitoring system for bee hives.
 - [Solution Bee](http://solutionbee.com/?page_id=145#1446901477438-2cf97671-d6ed)
 - [Arnia Hive Scales](http://www.arnia.co.uk/hive-scales/)
 - [HoneyBeeNet](https://honeybeenet.gsfc.nasa.gov/)
+- [SparkFun Open Source project](http://makezine.com/projects/bees-sensors-monitor-hive-health/). LEARNINGS
 
 ## What we are trying to monitor/control
 
@@ -28,6 +29,9 @@ Open-source monitoring system for bee hives.
 - [SparkFun Load Sensor Combinator](https://www.sparkfun.com/products/13281). Attaches to load sensors and interprets resistence in a manner that can be read by Arduinos or Particles. This can be attached to a hijacked scale.
 - Alternatively, you can use a [SparkFun Open Scale](https://www.sparkfun.com/products/13261) that combines 4 load sensors with the combinator.
 - Arduino/Particle
+- Analytics platform
+  - [analog.io](http://analog.io/#/s8Q)
+  - [Phant](http://phant.io/)
 
 ## Problems
 
