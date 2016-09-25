@@ -17,9 +17,17 @@ Open-source monitoring system for bee hives.
   - Weight that is bee, weight that is non-bee
 - Needs to support hive health in extremely cold climates. 
 - Number of bees in hive
-- Heat in different areas of the hive
-- Being able to adjust heat
-
-
+- Temperature in different areas of the hive
+- Being able to adjust/control heat
+- Overall: Hive health!!
+- Noticing regional trends in hive health based on surrounding land
 
 ## Equipment needed
+
+- Scale
+
+
+## Problems
+
+- Bees weigh ~ about 0.1g and hives weight many pounds. Most scales that exist aren't good at measuring both of these things
+
