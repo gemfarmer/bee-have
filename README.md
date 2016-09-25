@@ -24,10 +24,14 @@ Open-source monitoring system for bee hives.
 
 ## Equipment needed
 
-- Scale
-
+- Scale. HoneyBeeNet recommends scales that are accurate to 0.25  or ~1134 bees
+- [SparkFun Load Sensor Combinator](https://www.sparkfun.com/products/13281). Attaches to load sensors and interprets resistence in a manner that can be read by Arduinos or Particles. This can be attached to a hijacked scale.
+- Alternatively, you can use a [SparkFun Open Scale](https://www.sparkfun.com/products/13261) that combines 4 load sensors with the combinator.
+- Arduino/Particle
 
 ## Problems
 
-- Bees weigh ~ about 0.1g and hives weight many pounds. Most scales that exist aren't good at measuring both of these things
+- Bees weigh ~ about 0.1 gram and hives weight many pounds. Most scales that exist aren't good at measuring both of these things
+- Scales drift over time
+- We would be measuring on uneven surfaces
 
