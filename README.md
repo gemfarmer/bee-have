@@ -39,3 +39,7 @@ Open-source monitoring system for bee hives.
 - Scales drift over time
 - We would be measuring on uneven surfaces
 
+
+## In motion
+
+- [Live updates](Build.md)
