@@ -4,7 +4,7 @@
 
 10/12/2016 we got the [Tree from LW Measurements, LLC](https://www.amazon.com/gp/product/B008M8FND6/ref=oh_aui_detailpage_o03_s00?ie=UTF8&psc=1) and started disassembling it. Ultimately, we realized that it already came with a load combinator, so our disassembly was unnecessary. Great news for future bee hive hackers – you don't need to take it apart!
 
-![](img/load-combinator.jpg)
+<img src="img/load-combinator.jpg" width="500"/>
 
 
 ### Putting it back together
@@ -14,11 +14,11 @@ For the sake of being able to put the blasted thing back together I'm going to d
 
 Here is the scale without the feet. There are 3 screws and a nut holding each balast in place:
 
-![](img/bottom-capless.jpg)
+<img src="img/bottom-capless.jpg" width="500"/>
 
-![](img/bottom-capless-close.jpg)
+<img src="img/bottom-capless-close.jpg" width="500"/>
 
-![](img/leg-hardware.jpg)
+<img src="img/leg-hardware.jpg" width="500"/>
 
 
 ### What now?
@@ -31,7 +31,7 @@ SparkFun has a few helpful guides on load sensors:
 * [Getting Started with Load Cells](https://learn.sparkfun.com/tutorials/getting-started-with-load-cells)
 * and more applicable to this project, [Load Cell Ampliphier HX711 Breakout Hookup Guide](https://learn.sparkfun.com/tutorials/load-cell-amplifier-hx711-breakout-hookup-guide)
 
-<!-- The latter guide indicates that we will need 5 input cables: -->
+
 > The four wires coming out from the wheatstone bridge on the load cell are usually:
 * Excitation+ (E+) or VCC is red
 * Excitation- (E-) or ground is black.
@@ -39,12 +39,12 @@ SparkFun has a few helpful guides on load sensors:
 * O-, S-, or A- is green or blue
 
 **Our cables coming out of the load cells are blue, red, white, and black**
-![](img/four-cables.jpg)
+<img src="img/four-cables.jpg" width="500"/>
 
 The plot thickens when we reach the combinator as we gain an extra black cable and the blue becomes a green
 `Blue | Red | White | Black` => `Green | Red | White | Black | Black`
 
-![](img/combinator-close.jpg)
+<img src="img/combinator-close.jpg" width="500"/>
 
 Based on the following image, and this explanation, I think it is safe to assume that we can combine the two black cables and connect to the HX711 with the four remaining pins.
 
