@@ -52,5 +52,25 @@ Based on the following image, and this explanation, I think it is safe to assume
 
 ![](https://cdn.sparkfun.com/assets/learn_tutorials/5/4/6/HX711_Fritzing.JPG)
 
+> The HX711 Load Cell Amplifier accepts five wires from the load cell. These pins are labeled with colors; RED, BLK, WHT, GRN, and YLW. These colors correspond to the conventional color coding of load cells, where red, black, green and white wires come from the strain gauge on the load cell and yellow is an optional ground wire that is not hooked up to the strain gauge but is there to ground any small outside EMI (electromagnetic interference). Sometimes instead of a yellow wire there is a larger black wire, foil, or loose wires to shield the signal wires to lessen EMI.
+
+For us the colors map as follows
+
+```ruby
+E+: Red               => Red       
+E-: Black cable       => Black  
+	Loose black       => Yellow    
+S+: Blue              => White
+S-: Yellow            => Green
+```
+
+VDD => => 2.7 - 5V ( combined VDD and VCC )
+VCC =>
+DAT => Pin 3
+CLK => Pin 2
+GND => GND
+
+
+
 
 MORE TO COME!
