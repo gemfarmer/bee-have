@@ -73,5 +73,14 @@ GND => GND
 ```
 
 
+TODO
+----
+
+- [ ] determine calibration and drift factors at a variety of weights. Small --> beehive weight ( current calibration factor is changing rapidly (1.86kg at calibration factor of 12700 --> 2.222kg at calibration factor of 12700 in a few minutes)
+  - [ ] get things of different sizes with known weights
+  - [ ] port Arduino library to [particle](build.particle.io) 
+  - [ ] get weight hooked up to particle + breadboard
+  - [ ] calculate weight drift by logging to spreadsheet over many days
+  
 
 MORE TO COME!
