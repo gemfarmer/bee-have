@@ -64,12 +64,13 @@ S+: Blue              => White
 S-: Yellow            => Green
 ```
 
+```ruby
 VDD => => 2.7 - 5V ( combined VDD and VCC )
 VCC =>
 DAT => Pin 3
 CLK => Pin 2
 GND => GND
-
+```
 
 
 
