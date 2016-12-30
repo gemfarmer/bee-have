@@ -8,6 +8,7 @@ Open-source monitoring system for bee hives.
 - [Arnia Hive Scales](http://www.arnia.co.uk/hive-scales/)
 - [HoneyBeeNet](https://honeybeenet.gsfc.nasa.gov/)
 - [SparkFun Open Source project](http://makezine.com/projects/bees-sensors-monitor-hive-health/). LEARNINGS
+- [hx711adc Github](https://github.com/juano2310/hx711adc)
 
 ## What we are trying to monitor/control
 
